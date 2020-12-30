@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "first_name": "Test",
+    "last_name": "User",
+    "phone": "19005551234",
+    "email": "test@example.com",
+    "birthday": "2001-01-05"
+  },
+  {
+    "id": 2,
+    "first_name": "Gavin",
+    "last_name": "Glatting",
+    "birthday": "1989-01-26"
+  },
+  {
+    "id": 3,
+    "first_name": "Joe",
+    "last_name": "Cool",
+    "birthday": "1989-07-12"
+  },
+  {
+    "id": 4,
+    "first_name": "Sam",
+    "last_name": "Garst",
+    "birthday": "1972-06-19"
+  },
+  {
+    "id": 5,
+    "first_name": "Jake",
+    "last_name": "Glatting",
+    "birthday": "1982-01-29"
+  },
+  {
+    "id": 6,
+    "first_name": "Ben",
+    "last_name": "Oman",
+    "birthday": "1985-06-19"
+  }
+]

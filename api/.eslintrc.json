@@ -1,0 +1,13 @@
+{
+    "root": true,
+    "extends": "standard",
+    "env": {
+        "jest": true
+    },
+    "overrides": [
+        {
+            "files": "src/*.js",
+            "excludedFiles": "coverage/*.js"
+        }   
+    ]
+}

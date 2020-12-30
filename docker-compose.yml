@@ -1,0 +1,17 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:11
+    restart: unless-stopped
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=giift
+      - POSTGRES_USER=giift
+      - POSTGRES_DB=giift
+
+volumes:
+  db:
+    driver: local

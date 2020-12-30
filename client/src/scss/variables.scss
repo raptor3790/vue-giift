@@ -1,0 +1,23 @@
+$font-size-root: 16px;
+$line-height-root: 1.375;
+$body-font-family: "SofiaProExtraLight";
+$heading-font-family: "SofiaProBold";
+$material-light: (
+  "background": #fcfcfc,
+);
+$text-field-border-radius: 8px;
+$btn-letter-spacing: 0em;
+$btn-text-transform: none;
+$btn-sizes: (
+  "large": 40,
+);
+$btn-font-sizes: (
+  "small": 0.85rem,
+  "large": 1.25rem,
+);
+$expansion-panel-header-padding: 0px 24px;
+$expansion-panel-header-min-height: 40px;
+$expansion-panel-active-header-min-height: 40px;
+$dialog-margin: 0px;
+
+@import "~vuetify/src/styles/styles.sass";

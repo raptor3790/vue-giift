@@ -1,0 +1,269 @@
+//
+//Custom styling to support beautiful user interface
+//
+
+@import "~vuetify/src/styles/styles.sass";
+
+header > div {
+  border-bottom: 1px solid #e5e7e7;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.bottom-fixed {
+  background-color: #fcfcfc;
+  z-index: 5;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+// font
+.h1 {
+  font-size: 1.75rem !important;
+}
+.h2 {
+  font-size: 1.625rem !important;
+}
+.h3 {
+  font-size: 1.5rem !important;
+}
+.f-xxl {
+  font-size: 1.375rem !important;
+}
+.f-xl {
+  font-size: 1.25rem !important;
+}
+.f-l {
+  font-size: 1.125rem !important;
+}
+.f-m {
+  font-size: 1rem !important;
+}
+.f-s {
+  font-size: 0.875rem !important;
+}
+.f-xs {
+  font-size: 0.8125rem !important;
+}
+.f-xxs {
+  font-size: 0.75rem !important;
+}
+.f-xxxs {
+  font-size: 0.625rem !important;
+}
+.t-bold {
+  font-family: "SofiaProBold" !important;
+}
+.t-semi-bold {
+  font-family: "SofiaProSemiBold" !important;
+}
+.t-medium {
+  font-family: "SofiaProMedium" !important;
+}
+.t-regular {
+  font-family: "SofiaProRegular" !important;
+}
+.t-light {
+  font-family: "SofiaProLight" !important;
+}
+.t-extra-light {
+  font-family: "SofiaProExtraLight" !important;
+}
+.t-extra-light-italic {
+  font-family: "SofiaProExtraLightItalic" !important;
+}
+.c-grey {
+  color: #818787;
+}
+.fill-width {
+  width: 100%;
+}
+
+// Button
+.v-btn {
+  font-family: "SofiaProBold";
+  touch-action: manipulation; // Disable double tap zooming
+  padding-top: 2px !important;
+
+  &.img-top-btn {
+    padding: 0px !important;
+
+    .v-btn__content {
+      display: block;
+      text-align: center;
+    }
+  }
+
+  &.v-btn--compact {
+    min-width: 36px !important;
+  }
+
+  &.theme--light:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined):not(.v-btn--fab) {
+    color: #fcfcfc !important;
+    box-shadow: 0px 3px 1px -2px rgba(247, 87, 125, 0.6),
+      0px 2px 2px 0px rgba(247, 87, 125, 0.14),
+      0px 1px 5px 0px rgba(247, 87, 125, 0.12);
+
+    &.v-btn--disabled {
+      box-shadow: none;
+      background-color: #e5e7e7 !important;
+    }
+
+    &.primary {
+      background: linear-gradient(25deg, #f7577d 30%, #ff74a3 90%);
+    }
+  }
+}
+
+// Tab
+.v-tabs {
+  .v-tab {
+    font-size: 1.25rem;
+    letter-spacing: 0rem;
+    color: #000 !important;
+    text-transform: none;
+    border-bottom: 2px solid #fef7c9;
+    margin: 1px auto;
+
+    &.v-tab--active {
+      font-family: "SofiaProSemiBold";
+      border-bottom: none;
+      margin: 0px;
+
+      &::before {
+        background-color: transparent;
+      }
+    }
+  }
+  .v-tabs-slider-wrapper {
+    height: 4px !important;
+  }
+}
+
+// Disable v-dialog box shadow
+.v-dialog {
+  box-shadow: none;
+
+  .dlg-content {
+    background-color: #fcfcfc;
+    border-radius: 10px;
+  }
+}
+.html.overflow-y-hidden {
+  body {
+    overflow-y: hidden !important;
+  }
+}
+
+// Container
+.wrapper {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+// Text field
+.label {
+  font-family: "SofiaProRegular";
+  font-size: 0.85rem;
+
+  &.form-label {
+    text-align: justify;
+    margin: 12px 12px 0px;
+  }
+}
+
+.v-text-field input {
+  margin-top: 3px !important;
+  font-family: "SofiaProMedium";
+}
+
+// slider panel (green background)
+.green-panel {
+  background-color: #fef7c9;
+}
+
+// carousel image
+.v-carousel {
+  &.deal-carousel {
+    .v-window__prev,
+    .v-window__next {
+      margin-top: -16px;
+    }
+  }
+
+  &.testimoinal-carousel {
+    .v-window__prev,
+    .v-window__next {
+      margin-top: -28px;
+    }
+  }
+
+  .v-responsive {
+    .carousel-item {
+      overflow: visible;
+      max-width: calc(min(100vw, 480px) - 80px);
+
+      .v-image {
+        border: 4px solid #fff;
+        border-radius: 12px;
+        box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2),
+          1px 4px 4px 0px rgba(0, 0, 0, 0.14),
+          0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+      }
+
+      .badge {
+        position: absolute;
+        top: 8px;
+        right: 24px;
+        width: 56px;
+        height: 56px;
+        padding-top: 5px;
+        border-radius: 28px;
+        background-color: #fcfcfc;
+      }
+    }
+  }
+
+  // carousel arrow button
+  .v-window__prev,
+  .v-window__next {
+    background-color: transparent;
+    margin: 0;
+
+    .v-btn .v-icon::before {
+      color: #000;
+    }
+  }
+}
+
+@media #{map-get($display-breakpoints, 'sm-and-up')} {
+  .green-panel {
+    .v-window__prev {
+      margin-left: 2vw;
+    }
+    .v-window__next {
+      margin-right: 2vw;
+    }
+  }
+}
+
+// expansion panel
+.v-expansion-panel {
+  background-color: transparent !important;
+}
+
+// error
+.error-toast {
+  color: #fff;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10000;
+}

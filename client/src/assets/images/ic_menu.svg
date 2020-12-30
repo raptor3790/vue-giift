@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="19px" viewBox="0 0 30 21" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/menu</title>
+    <g id="Web-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="dashboard/receive" transform="translate(-18.000000, -19.000000)" stroke="#040F0F">
+            <g id="header/logged_in" transform="translate(-1.000000, 20.000000)">
+                <g id="icon/menu_open" transform="translate(21.000000, 0.500000)">
+                    <g id="Group-6">
+                        <line x1="9.02056208e-17" y1="0.5" x2="26" y2="0.5" id="Line-2" stroke-width="3"></line>
+                        <line x1="9.02056208e-17" y1="9.25" x2="26" y2="9.25" id="Line-2-Copy" stroke-width="3"></line>
+                        <line x1="9.02056208e-17" y1="18" x2="26" y2="18" id="Line-2-Copy-2" stroke-width="3"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
